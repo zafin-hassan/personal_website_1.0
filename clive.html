@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
+    />
+    <title>Clive Chan</title>
+    <meta
+      name="description"
+      content="Bloomberg software engineering intern. Hyperloop technical lead &amp; former embedded software lead. Founder of a hackathon, a startup, and multiple tech outreach events."
+    />
+    <meta name="copyright" content="Clive Chan, 2015-present" />
+    <meta name="author" content="Clive Chan (cc@clive.io)" />
+    <meta name="theme-color" content="mediumblue" />
+    <meta name="msapplication-navbutton-color" content="mediumblue" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="og:image" content="https://clive.io/img/logo-min-black.png" />
+    <meta name="og:email" content="cc@clive.io" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+      integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css?v=fbf1253c5b052c7f658607ae1d6b5caf"
+    />
+  </head>
+  <body>
+    <div id="title">
+      <span id="logo"
+        ><img
+          src="img/logo-min-white.png"
+          alt="[awesome personal logo]"
+          aria-hidden="true"
+      /></span>
+      <h1>Clive Chan</h1>
+      <ul>
+        <li>
+          <a
+            href="mailto:cc@clive.io"
+            title="Email: cc@clive.io"
+            aria-label="email"
+            ><i class="fa fa-envelope" aria-hidden="true"
+              ><span aria-hidden="false">Email: cc@clive.io </span></i
+            ></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/cchan"
+            title="GitHub: cchan"
+            aria-label="github"
+            ><i class="fa fa-github" aria-hidden="true"
+              ><span aria-hidden="false">GitHub: cchan </span></i
+            ></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://linkedin.com/in/cchan3141"
+            title="LinkedIn: cchan3141"
+            aria-label="linkedin"
+            ><i class="fa fa-linkedin" aria-hidden="true"
+              ><span aria-hidden="false">LinkedIn: cchan3141 </span></i
+            ></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://keybase.io/cchan3141"
+            title="Keybase: cchan3141"
+            aria-label="keybase"
+            ><i class="fa fa-key" aria-hidden="true"
+              ><span aria-hidden="false">Keybase: cchan3141 </span></i
+            ></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://clive.io/resume"
+            title="Resume: https://clive.io/resume"
+            aria-label="resume"
+            ><i class="fa fa-file" aria-hidden="true"
+              ><span aria-hidden="false"
+                >Resume: https://clive.io/resume
+              </span></i
+            ></a
+          >
+        </li>
+      </ul>
+    </div>
+    <p id="tagline">
+      <span
+        ><span>Google SWE intern,</span> previously at
+        <span>Tesla Autopilot,</span> <span>Bloomberg.</span></span
+      >
+      <span
+        ><span
+          ><a href="https://teamwaterloop.ca" title="Team Waterloop"
+            >Hyperloop</a
+          >
+          technical lead,</span
+        >
+        <span><span>UWaterloo Software Engineering.</span></span></span
+      >
+    </p>
+    <div id="cta">
+      <a href="https://clive.io/resume" title="Resume">r&eacute;sum&eacute;</a>
+      <a href="mailto:cc@clive.io" title="Email">email</a>
+      <a href="https://calendly.com/cchan3141" title="Office Hours"
+        >officehours</a
+      >
+    </div>
+    <div id="splash-wrap" aria-hidden="true">
+      <canvas id="splash"></canvas>
+      <aside id="simulation-info" onclick="" aria-haspopup="true">
+        <div id="simulation-name"></div>
+        <div id="simulation-note"></div>
+      </aside>
+    </div>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    /><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    /><script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"
+      integrity="sha256-9Nt2r+tJnSd2A2CRUvnjgsD+ES1ExvjbjBNqidm9doI="
+      crossorigin="anonymous"
+    ></script
+    ><script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"
+      integrity="sha256-hYXbQJK4qdJiAeDVjjQ9G0D6A0xLnDQ4eJI9dkm7Fpk="
+      crossorigin="anonymous"
+    ></script
+    ><script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"
+      integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+      crossorigin="anonymous"
+    ></script
+    ><script defer src="script.js?v=3eb2b4a2d45a61be56aab6a7b3981f4b"></script
+    ><script>
+      (function(C, l, i, v, e, I, O) {
+        C["GoogleAnalyticsObject"] = e;
+        (C[e] =
+          C[e] ||
+          function() {
+            (C[e].q = C[e].q || []).push(arguments);
+          }),
+          (C[e].l = 1 * new Date());
+        (I = l.createElement(i)), (O = l.getElementsByTagName(i)[0]);
+        I.async = 1;
+        I.src = v;
+        O.parentNode.insertBefore(I, O);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-62605323-2", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
+</html>
