@@ -30,9 +30,9 @@
   text-decoration: none;
 } */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    padding: 40px;
+    font-size: 40px;
+    width: 50px;
     text-align: center;
     /* line-height: 20px; */
     text-decoration: none;
@@ -57,8 +57,16 @@
   /* Twitter */
   /* .fa-twitter {
     background: #55ACEE;
-    color: white; */ */ */
-  }
+    color: white; */
+
+ul.social-media{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    font-size: 2rem;
+    display: inline-flex;
+}
+
   body {
     color: #E7DDDB;
     font-size: 14px;
