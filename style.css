@@ -59,12 +59,13 @@
     background: #55ACEE;
     color: white; */
 
-ul.social-media{
+.social-media{
     display: flex;
     text-align: center;
     flex-direction: row;
     font-size: 2rem;
     display: inline-flex;
+    margin-right: 10px;
 }
 
   body {
