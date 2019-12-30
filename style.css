@@ -398,7 +398,8 @@ a img.aligncenter {
 .main-banner{
 	display: table;
     width: 100%;
-	text-align: center;
+    text-align: center;
+    ;
 }
 .main-banner::after {
     content: " ";
@@ -409,7 +410,8 @@ a img.aligncenter {
     right: 0;
     background-color: #FDFEFE;
     z-index: 0;
-    opacity: .6;
+    opacity: .3;
+    /* background-image: url(uploads/waterloopark.jpg) */
 }
 .heading{
 	color: #17202A;
