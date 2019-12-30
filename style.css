@@ -2196,7 +2196,7 @@ select.mobile-device {
     color: #999;
     display: block;
     padding: 0 58px;
-    text-transform: uppercase;
+    
 }
 
 .footer .widget-title h3 {
@@ -2272,7 +2272,6 @@ select.mobile-device {
 
 .footer-distributed .footer-links {
     margin: 0 0 10px;
-    text-transform: uppercase;
     padding: 0;
 }
 
