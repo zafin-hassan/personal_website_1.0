@@ -2286,16 +2286,4 @@ select.mobile-device {
 }
 
 
-/* 
-
-Media Queires
-
-*/
-
-@media (min-width: 600px) {
-
-    .navbar-default{
-display: none;
-    }
-    )
 }
