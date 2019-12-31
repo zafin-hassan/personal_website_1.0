@@ -68,6 +68,10 @@
     margin-right: 10px;
 }
 
+.intern{
+    font-size: medium;
+}
+
   body {
     color: #E7DDDB;
     font-size: 14px;
@@ -426,10 +430,11 @@ a img.aligncenter {
 	font-size: 62px;
 	text-transform: uppercase;
 }
-.heading p{
-	font-size: 18px;
-	padding: 20px 0px;
+p.intern{
+	font-size: 20px;
+	padding: 10px 0px 10px 0;
 }
+
 
 .heading h3{
 	color: #17202A;
