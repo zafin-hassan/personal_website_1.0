@@ -5,7 +5,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  #mainNav {
+  /* #mainNav {
     background-color: #333333;
   }
   .navbar-dark .navbar-brand {
@@ -17,7 +17,7 @@
   .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255);
     border-color: rgba(255, 255, 255);
-  }
+  } */
   .heading h1 {
     font-size: 28px;
   }
@@ -33,9 +33,7 @@
   .section-title p {
     font-size: 14px;
   }
-  #clouds {
-    margin-top: -35%;
-  }
+
   .message-box {
     margin-bottom: 30px;
   }
@@ -55,6 +53,7 @@
 @media (max-width: 767px) {
   #mainNav {
     background-color: #333333;
+    display: none;
   }
   .navbar-dark .navbar-brand {
     width: 55%;
@@ -81,9 +80,7 @@
   .section-title p {
     font-size: 14px;
   }
-  #clouds {
-    margin-top: -35%;
-  }
+
   .message-box {
     margin-bottom: 30px;
   }

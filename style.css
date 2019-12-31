@@ -23,12 +23,7 @@
     SKELETON
 -------------------------------------------------------------------*/
 
-/* .fa {
-  font-size: 300px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-} */
+
 .fa {
     padding: 40px;
     font-size: 40px;
@@ -500,18 +495,6 @@ xclip
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #333333;
-}
-
-#clouds{
-	margin-top: -5%;
-	position: relative;
-	z-index: 1;
-}
-#clouds path {
-    fill: #ffffff;
-    bottom: -10px;
-    overflow: hidden;
-    stroke: #ffffff;
 }
 
 .section {
@@ -2300,4 +2283,19 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* 
+
+Media Queires
+
+*/
+
+@media (min-width: 600px) {
+
+    .navbar-default{
+display: none;
+    }
+    )
 }
