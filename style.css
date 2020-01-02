@@ -68,7 +68,7 @@
 }
 
   body {
-    color: #E7DDDB;
+    color: #000404;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -897,6 +897,10 @@ xclip
     MESSAGE BOXES
 -------------------------------------------------------------------*/
 
+
+#aboutDescription{
+    font-size: medium;
+}
 .event_dit{
 	margin-top: 20px;
 }
