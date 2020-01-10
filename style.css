@@ -1984,7 +1984,8 @@ select.mobile-device {
 
 .footer-links {
     list-style: none;
-    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 0%;
 }
 
 .footer-links a {
